@@ -1,0 +1,43 @@
+.table_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.table_header {
+  display: grid;
+  width: 100%;
+  height: max-content;
+  border-radius: 8px;
+  grid-template-columns: 20% 30% 50%;
+  background-color: hsl(222, 26%, 33%);
+  padding: 14px 25px;
+}
+.table_body {
+  display: grid;
+  width: 100%;
+  height: max-content;
+  border-radius: 8px;
+  border: 2px solid #3f4c6b;
+  grid-template-columns: 20% 30% 35% 10% 10%;
+  padding: 14px 25px;
+}
+.checkbox_input {
+  width: 23px;
+}
+
+.item_color {
+  color: #fff;
+}
+.edit_button {
+  width: 30px;
+  height: 30px;
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+.delete_button {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
